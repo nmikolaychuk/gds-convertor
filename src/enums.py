@@ -13,7 +13,7 @@ class StructObjectType(Enum):
     STRNAME = b"\x06\x06"
     BOUNDARY = b"\x08\x00"
     BOX = b"\x2d\x00"
-    LAYER = b"\x0d\x02"
+    LAYER = b"\x02\x00"
     XY = b"\x10\x03"
     ENDEL = b"\x11\x00"
     ENDSTR = b"\x07\x00"
